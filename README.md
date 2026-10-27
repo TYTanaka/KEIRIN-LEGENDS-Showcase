@@ -4,9 +4,9 @@
 
 追走で脚をため、進路を選び、全力で仕掛ける。競輪ならではの位置取りとスタミナ管理を、選手育成につなぐ3Dレースゲームです。
 
-[![KEIRIN LEGENDS 実ゲーム映像](assets/cover.jpg)](https://github.com/TYTanaka/KEIRIN-LEGENDS-Showcase/releases/download/v0.1.88/KEIRIN-LEGENDS-v0.1.88-Presentation-720p60.mp4)
+[![KEIRIN LEGENDS 実ゲーム映像](assets/cover.jpg)](https://github.com/TYTanaka/KEIRIN-LEGENDS-Showcase/releases/download/v0.1.88/KEIRIN-LEGENDS-v0.1.88-Presentation-90s-720p60.mp4)
 
-[▶ 紹介動画を見る・ダウンロード（3分30秒／60fps）](https://github.com/TYTanaka/KEIRIN-LEGENDS-Showcase/releases/download/v0.1.88/KEIRIN-LEGENDS-v0.1.88-Presentation-720p60.mp4)　｜　[Windows開発版をダウンロード](https://github.com/TYTanaka/KEIRIN-LEGENDS-Showcase/releases/tag/v0.1.88)　｜　[遊び方](PLAYING.md)
+[▶ 90秒の紹介動画を見る・ダウンロード（60fps）](https://github.com/TYTanaka/KEIRIN-LEGENDS-Showcase/releases/download/v0.1.88/KEIRIN-LEGENDS-v0.1.88-Presentation-90s-720p60.mp4)　｜　[Windows開発版をダウンロード](https://github.com/TYTanaka/KEIRIN-LEGENDS-Showcase/releases/tag/v0.1.88)　｜　[遊び方](PLAYING.md)
 
 > **開発中のWindows試遊版 v0.1.88。** このリポジトリでは紹介資料と配布版を公開しています。ゲームのソースコードは非公開です。Android実機評価・常設オンライン運営・公開ランク戦は未完了です。
 
@@ -57,10 +57,15 @@ Windows版に対戦用メニューはありますが、公開の常設対戦サ�
 
 ## ダウンロードと動画
 
+企業向けに、追走から抜く場面・育成・キャラクリ・通信技術を**90秒**で紹介する動画を用意しました。ナレーション・説明字幕なしで、口頭説明にも使えます。[3分30秒の詳細版](https://github.com/TYTanaka/KEIRIN-LEGENDS-Showcase/releases/download/v0.1.88/KEIRIN-LEGENDS-v0.1.88-Presentation-720p60.mp4)も残しています。
+
 **[最新版の配布ページ](https://github.com/TYTanaka/KEIRIN-LEGENDS-Showcase/releases/tag/v0.1.88)**
 
 - `KEIRIN-LEGENDS-v0.1.88-Unity-Windows.zip`：Windows 64bit開発版。ZIP全体を展開し、`KEIRIN-LEGENDS.exe`を起動。Unityのインストールは不要です。
-- `KEIRIN-LEGENDS-v0.1.88-Presentation-720p60.mp4`：紹介動画。企業名・ナレーション・説明字幕なし。BGM付き。
+- `KEIRIN-LEGENDS-v0.1.88-Presentation-90s-720p60.mp4`：90秒の企業向け紹介・BGM付き。
+- `KEIRIN-LEGENDS-v0.1.88-Presentation-90s-Silent-1080p60.mp4`：90秒の口頭説明用・音声なし。
+- `KEIRIN-LEGENDS-v0.1.88-Presentation-90s-1080p60.mp4`：90秒の高画質版・BGM付き。
+- `KEIRIN-LEGENDS-v0.1.88-Presentation-720p60.mp4`：3分30秒の詳細版。企業名・ナレーション・説明字幕なし。BGM付き。
 - `KEIRIN-LEGENDS-v0.1.88-Presentation-Silent-1080p60.mp4`：口頭説明用の音声なし動画。
 - `SHA256SUMS.txt`：配布ファイルの確認用ハッシュ。
 
