@@ -6,7 +6,7 @@
     <title>KEIRIN LEGENDS | ブラウザ体験版</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-  <style>body{background:#081522;color:#f5f7fa}#keirin-loading{text-align:center;margin-top:12px;font:16px sans-serif;white-space:nowrap}</style></head>
+  <style>body{background:#081522;color:#f5f7fa}#keirin-loading{text-align:center;margin-top:12px;font:16px sans-serif;max-width:70vw;line-height:1.5}</style></head>
   <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/unity-web-0190.loader.js?v=20261115140316";
+      var loaderUrl = buildUrl + "/unity-web-0190.loader.js?v=20261115154154";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/unity-web-0190.data.unityweb?v=20261115140316",
-        frameworkUrl: buildUrl + "/unity-web-0190.framework.js.unityweb?v=20261115140316",
-        codeUrl: buildUrl + "/unity-web-0190.wasm.unityweb?v=20261115140316",
+        dataUrl: buildUrl + "/unity-web-0190.data.unityweb?v=20261115154154",
+        frameworkUrl: buildUrl + "/unity-web-0190.framework.js.unityweb?v=20261115154154",
+        codeUrl: buildUrl + "/unity-web-0190.wasm.unityweb?v=20261115154154",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "KEIRIN LEGENDS",
         productName: "KEIRIN LEGENDS Unity",
@@ -112,7 +112,7 @@
 
       var script = document.createElement("script");
       script.src = loaderUrl;
-      script.onload = () => {
+      const showLoadError = () => { const status = document.querySelector('#keirin-loading'); status.setAttribute('role', 'alert'); status.textContent = 'ゲームを読み込めませんでした。最新のChrome、Edge、SafariでWebGLを有効にし、通信を確認してから再読み込みしてください。'; }; script.onerror = showLoadError; script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
               }).then((unityInstance) => {
@@ -122,7 +122,7 @@
                 };
 
               }).catch((message) => {
-                alert(message);
+                console.error(message); showLoadError();
               });
             };
 
